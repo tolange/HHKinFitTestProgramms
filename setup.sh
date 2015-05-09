@@ -1,7 +1,7 @@
 #!/bin/bash
-export KINFITPATH=/afs/desy.de/user/t/tlange/workspace/HHKinFit2
-export LD_LIBRARY_PATH=.:$KINFITPATH:$LD_LIBRARY_PATH
-echo "KinFit path set to $KINFITPATH"
+export KINFIT2PATH=/afs/desy.de/user/t/tlange/workspace/HHKinFit2
+export LD_LIBRARY_PATH=.:$KINFIT2PATH:$LD_LIBRARY_PATH
+echo "KinFit path set to $KINFIT2PATH"
 
 if [[ $HOST == *"nafhh"* ]]
 then
